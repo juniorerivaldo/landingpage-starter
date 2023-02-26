@@ -1,0 +1,17 @@
+{
+  "name": "landingpage-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tailwindcss -i ./src/input.css -o ./public/main.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./public/main.css && copyfiles -f ./src/index.html ./public/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "tailwindcss": "^3.2.7"
+  }
+}
