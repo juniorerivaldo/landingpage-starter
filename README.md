@@ -24,4 +24,5 @@ this generetes final index.html and main.css files in folder public for you to d
 ## tecnologies in this project:
 
 tailwindcss for fast css creation
+
 node for automate build and watch css and html files change
